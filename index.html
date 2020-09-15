@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Project One</title>
+    <script src="structure.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="master.css">
+  </head>
+  <body>
+    <h1>Project 1 - Brandon Shimpach</h1>
+
+    <form name="Cost"
+          action="#"
+          method="post">
+
+    <fieldset>
+      <legend>1 story vs. 2 story<legend>
+    <input type="image" src="img/house.jpg"  name="" value="" >
+    <input type="image" src="img/house1.png" onclick="storeVar(this);" name="" value="">
+  </fieldset>
+
+    <br><br><br>
+
+
+      <legend>Color of House<legend>
+    <input type="image"  src="img/green.png" onclick="ColorPrice(this);" name="" value="">
+    <input type="image" src="img/yellow.png" onclick="storeVar(this);" name="" value="">
+    <input type="image" src="img/pink.png" onclick="storeVar(this);" name="" value="">
+
+
+    <br><br><br>
+
+    <fieldset>
+      <legend>exterior material<legend>
+    <input type="image" src="img/brick.png" onclick="storeVar(this);" name="brick" value="">
+    <input type="image" src="img/stone.png" onclick="storeVar(this);" name="stone" value="">
+    <input type="image" src="img/stucco.jpg" onclick="storeVar(this);" name="stucco" value="">
+    <input type="image" src="img/vinyl.png" onclick="storeVar(this);" name="vinyl" value="">
+    <input type="image" src="img/wood.png" onclick="storeVar(this);" name="wood" value="">
+    </fieldset>
+
+    <br><br><br>
+
+  <label for="feet">Square Feet</label>
+  <input type="text" onclick="storeVar(this);" name="" value="">
+
+  <br><br><br>
+
+  <fieldset>
+      <legend>garage size</legend>
+      <input type="radio" onclick="storeVar(this);"  value="garageOne" name="1" >
+      <label for="one">1</label>
+
+      <input type="radio" onclick="storeVar(this);"  value="garageTwo" name="2" >
+      <label for="two">2</label>
+
+      <input type="radio" onclick="storeVar(this);"  value="garageThree" name="3" >
+      <label for="three">3</label>
+  </fieldset>
+
+  <button name="data" onclick="return getData()">Click</button>
+
+  </form>
+
+
+  </body>
+</html>
+<script type="text/javascript">
+textArea()
+</script>
